@@ -1,0 +1,22 @@
+This problem has been taken from Hacker earth practise problems:
+
+Little Shino loves maths. Today her teacher gave her two integers. 
+Shino is now wondering how many integers can divide both the numbers. 
+She is busy with her assignments. Help her to solve the problem.
+
+Input:
+First line of the input file contains two integers, a and b
+
+Output:
+Print the number of common factors of a and b
+
+
+Constraints: 1<=a,b<=pow(10,12)
+
+
+Editorial
+
+Brief Description: Given two integers a and b, find the number of factors common to both a and b.
+
+
+Solution: First we will obtain the GCD of these numbers and then obtain the factors of the acquired GCD
