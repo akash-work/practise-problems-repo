@@ -1,0 +1,16 @@
+This problem has been taken from a contest of Hacker earth:
+
+Problem statement:
+
+Let there be a number n. Find largest number, x such that x is less than or equal to n
+and all the digits of x are prime
+
+Eg: If n = 1000
+then x = 777
+
+
+Solution: a. Iterate through the entries from 1 to N. 
+		  b. Obtain all the digits in the entries
+		  c. Individually check if the digits are prime.
+		  d. If found true concatenate them and finally reverse the string
+		  e. The last entry will always be the greatest.
